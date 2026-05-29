@@ -1,108 +1,53 @@
-# h•eart•h Prometheus — Sovereign Syntropy
+# Legacy Development Archive
 
-Canonical cryptographic release of the h•eart•h Prometheus White Paper, its constitutionally incorporated documents, and its verification and reproducibility set.
+This repository is a historical pre-v1.1 development archive for h•eart•h Prometheus.
 
-This package contains the official canonical release artifacts for the h•eart•h Prometheus Sovereign Syntropy framework.
+The active Prometheus v1.1 Genesis Institutional Canonical Line is now maintained under:
 
-All release-critical files are designed to be independently verifiable through SHA-256 hashes and OpenPGP signatures.
+**Permaculture-DAO/prometheus-canon**
 
----
+This repository is not part of the active canonical release path unless a specific artifact is explicitly reintroduced through the v1.1 signed canonical release process.
 
-## Release identity
+## Legacy status
 
-- Constitutional text version: 1.1+
-- Constitutional text date: March 13, 2026
-- Canonical release publication date: April 16, 2026
-- Previous canonical freeze superseded: April 9, 2026
-- Canonical signer: Uwohali Tuccio
-- Canonical publisher: Permaculture DAO LLC
+This repository may contain pre-v1.1 materials, including earlier drafts, release artifacts, checksums, signatures, generated packs, repository-alignment documents, runtime notes, and development history.
 
----
+Those materials are preserved as historical development evidence.
 
-## Ontological note
+They do not govern the Prometheus v1.1 Genesis Institutional Canonical Line.
 
-The current constitutional language should be read with the following semantic hierarchy:
+## Active canonical path
 
-- **Prometheus** = capital-ready regenerative transformation infrastructure
-- **PRU** = translation / underwriting / financial abstraction layer
-- **TRBK** = governance / coordination / participation layer
-- **HoloFuel** = operational transaction / infrastructure layer
-- **OHE** = minimum deployable regenerative unit
-- **autopoietic layer** = adaptive intelligence and risk-compression layer
+Primary canonical repository:
 
-This hierarchy governs the canonical reading of the white paper and should remain consistent across derived constitutional materials, repository READMEs, and pilot-facing documentation.
+**Permaculture-DAO/prometheus-canon**
 
----
+Founder publication mirror expected after Genesis reinstall:
 
-## Package contents
+**Uwohali/hearth-prometheus-whitepaper**
 
-### Constitutional core
+## Reintroduction rule
 
-- `h•eart•h_Prometheus_White_Paper.md`
-- `h•eart•h_intelligence_Manifesto.md`
-- `Syntropic_Sovereignty_Header.md`
-- `CAL-1.0_Syntropic_rider_license.md`
+A legacy artifact may re-enter the active canonical path only if all of the following conditions are met:
 
-### Supporting legal and trust documents
+1. the artifact is explicitly identified;
+2. the reason for reintroduction is documented;
+3. the artifact is reviewed against the v1.1 White Paper;
+4. stale terminology is removed or corrected;
+5. semantic conflicts are resolved;
+6. formatting is normalized to UTF-8 and Unix LF;
+7. the artifact is listed in the release manifest;
+8. checksums are regenerated after textual freeze;
+9. the artifact is included in the signed canonical release process.
 
-- `CAL-1.0_License.md`
-- `Root_Of_Trust.md`
-- `Uwohali_Tuccio_PUBLIC_KEY.asc`
+No legacy artifact may silently become canonical by being copied into a new repository.
 
-### Verification and reproducibility set
+## Operational rule
 
-- `Technical_verification_&_cryptographic_integrity_manual.md`
-- `VERIFICATION.md`
-- `REPRODUCIBLE_RELEASE.md`
-- `Runbook.md`
-- `RELEASE_MANIFEST.json`
-- `SHA256_SUMS.txt`
-- `SHA256_SUMS.txt.asc`
+Legacy artifacts may inform the Genesis line.
 
-### Release support and derived materials
+Legacy artifacts may not govern the Genesis line.
 
-- `README.md`
-- `CONTRIBUTING.md`
-- `PROMETHEUS_CANON_12_PAGES.md`
-- `Prometheus — Executive Summary & Investment Thesis.md`
-- `Prometheus_Canon_12_pages.docx`
-- `Prometheus_Canon_12_pages.pdf`
+Legacy history is preserved.
 
----
-
-## Repository alignment
-
-Canonical project development lives under the `Permaculture-DAO` organization.
-
-Repository-bounded implementation, operations, evaluation logic, bridge services, UI, and pilot runtime materials are maintained separately through the organizational repository architecture and must not silently redefine canonical semantics.
-
-The constitutional rule is simple:
-
-- the Canon defines enduring architectural meaning at high level
-- repository README files define repository-specific scope
-- implementation behavior remains bounded by pilot-first discipline
-- runtime code does not silently redefine constitutional intent
-
----
-
-## Verification quick start
-
-1. Import the public key:
-   `gpg --import Uwohali_Tuccio_PUBLIC_KEY.asc`
-
-2. Verify the signed checksum file:
-   `gpg --verify SHA256_SUMS.txt.asc SHA256_SUMS.txt`
-
-3. Verify file integrity:
-   `sha256sum -c SHA256_SUMS.txt`
-
-For complete verification instructions, see:
-
-- `VERIFICATION.md`
-- `Technical_verification_&_cryptographic_integrity_manual.md`
-
----
-
-## Status note
-
-This README reflects the ontology-synchronized canonical release state prepared for publication on April 16, 2026. Hashes, signatures, manifest references, and any binary derived artifacts must be regenerated after the full document set is finalized.
+Legacy authority is not inherited automatically.
